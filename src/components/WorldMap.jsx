@@ -1,5 +1,5 @@
 import React from "react";
-// import worldMap from "../assets/world-map.jpg";
+ import worldMap from "../assets/World-Map.jpg";
 
 const countryDots = [
   { name: "India", top: "51%", left: "68%", color: "#4834D4" },
@@ -13,7 +13,7 @@ const WorldMap = () => {
     <div className="relative inline-block rounded-md overflow-hidden  ">
 
 <img 
-// src={worldMap} 
+src={worldMap} 
 alt="World Map" className="block" />
       {countryDots.map((dot, idx) => (
         <div

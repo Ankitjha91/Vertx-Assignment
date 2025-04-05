@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-black text-white border-b border-[#1d1d1d] px-4 py-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
+    <div className="bg-black text-white border-b border-[#1d1d1d] px-4 py-2 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
       {/* Left: Page Title */}
       <h1 className="text-lg font-semibold">{getPageTitle(location.pathname)}</h1>
 

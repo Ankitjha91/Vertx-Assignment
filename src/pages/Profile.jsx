@@ -17,11 +17,11 @@ const Profile = () => {
 
         {/* Center: Logo - Absolute centered */}
         <div className="absolute left-1/2 transform -translate-x-1/2">
-          <img
+          {/* <img
             src="https://cdn-icons-png.flaticon.com/512/2784/2784460.png"
             alt="Logo"
             className="w-6 h-6"
-          />
+          /> */}
         </div>
 
         {/* Right: More Icon */}
